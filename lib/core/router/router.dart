@@ -22,6 +22,7 @@ final GoRouter router = GoRouter(
           child: const MainScreen(),
         );
       },
+      //detail screen에서 받는 extra값 수정
       routes: <RouteBase>[
         GoRoute(
           path: 'details',
